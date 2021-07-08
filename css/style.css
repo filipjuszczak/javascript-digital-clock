@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Consolas, 'Courier New', monospace;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #272727;
+}
+
+.container .clock-div {
+  width: 80vw;
+  height: 20vw;
+  color: white;
+  text-align: center;
+}
+
+.container .clock-div p {
+  font-size: 3.5rem;
+  line-height: 20vw;
+}
+
+@media (min-width: 375px) {
+  .container .clock-div p {
+    font-size: 4.5rem;
+  }
+}
+
+@media (min-width: 540px) {
+  .container .clock-div p {
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .container .clock-div h1 {
+    font-size: 3rem;
+  }
+  .container .clock-div p {
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container .clock-div h1 {
+    font-size: 3rem;
+  }
+  .container .clock-div p {
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container .clock-div h1 {
+    font-size: 4rem;
+  }
+  .container .clock-div p {
+    font-size: 8rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .container .clock-div h1 {
+    font-size: 6rem;
+  }
+  .container .clock-div p {
+    font-size: 12rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
